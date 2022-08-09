@@ -94,3 +94,26 @@ coroutine.resume(routine_1) -- dead next if block wont' be executed
 if coroutine.status(routine_1) == "suspended" then
   coroutine.resume(routine_1)
 end
+
+-- print("\nWorking with Files")
+-- print("Writing to a file")
+-- io.output("myFile.txt")
+-- io.write("Hello World!!")
+
+print("\nReading a string from a file")
+io.input("myFile.txt")
+local file1 = io.read(5)
+io.close()
+print(file1)
+
+print("\nReading a number from a file")
+io.input("myNumber.txt")
+local file2 = io.read("*number")  -- it will ONLY read the number present
+io.close()
+print(file2 + 88)
+print("To read a line use: io.read(\"*line\")")
+print("To read all text use: io.read(\"*all\")")
+
+local file3 = io.open("myFile2.txt", "a")
+file3:write("\nJack: He is old! \n Netsu: Yeah I know")
+file3:close()
