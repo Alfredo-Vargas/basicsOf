@@ -1,0 +1,30 @@
+Thu Jul 14 12:34:59 AM CEST 2022
+alfredo  tty2         2022-07-13 11:40 (:0)
+alfredo  pts/0        2022-07-13 11:40 (:0)
+00:34:59 up 12:54, 2 users, load average: 0.24, 0.20, 0.19
+
+Thu Jul 14 12:35:14 AM CEST 2022
+alfredo  tty2         2022-07-13 11:40 (:0)
+alfredo  pts/0        2022-07-13 11:40 (:0)
+00:35:14 up 12:54, 2 users, load average: 0.19, 0.18, 0.19
+
+Thu Jul 14 12:36:07 AM CEST 2022
+alfredo  tty2         2022-07-13 11:40 (:0)
+alfredo  pts/0        2022-07-13 11:40 (:0)
+00:36:07 up 12:55, 2 users, load average: 0.35, 0.24, 0.20
+
+Thu Jul 14 09:19:32 PM CEST 2022
+alfredo  tty2         2022-07-14 16:21 (:0)
+alfredo  pts/0        2022-07-14 16:21 (:0)
+21:19:32 up 4:58, 2 users, load average: 0.36, 0.40, 0.44
+
+Thu Jul 14 09:19:59 PM CEST 2022
+alfredo  tty2         2022-07-14 16:21 (:0)
+alfredo  pts/0        2022-07-14 16:21 (:0)
+21:19:59 up 4:59, 2 users, load average: 0.24, 0.37, 0.43
+
+Sun Sep 4 05:15:25 PM CEST 2022
+alfredo  tty2         2022-09-04 08:14 (:0)
+alfredo  pts/0        2022-09-04 08:14 (:0)
+17:15:25 up 9:01, 2 users, load average: 0.98, 0.80, 0.79
+
