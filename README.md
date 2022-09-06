@@ -1,5 +1,5 @@
 # basicsOF
-- Contains my personal code notes to acquainted with the syntax, semantics and logic of different programming languages.
+- Contains my personal code notes to get acquainted with the syntax, semantics and logic of different programming languages.
 
 # References:
 - [Derek Banas, Perl](https://www.newthinktank.com/)
