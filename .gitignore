@@ -1,0 +1,5 @@
+python/__pycache__/*
+python/test-existing-code/after/htmlcov/*
+python/test-existing-code/after/pay/__pycache__/*
+python/test-existing-code/after/pay/tests/__pycache__/*
+python/test-existing-code/before/pay/__pycache__/*
