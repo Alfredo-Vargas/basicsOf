@@ -4,3 +4,10 @@ python/test-existing-code/after/pay/__pycache__/*
 python/test-existing-code/after/pay/tests/__pycache__/*
 python/test-existing-code/before/pay/__pycache__/*
 python/test-existing-code/after_refactor/.env
+
+**/*.pyc
+.coverage
+htmlcov
+**/.DS_Store
+**/node_modules
+**/*.log
