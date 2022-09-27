@@ -20,4 +20,10 @@ reviews = pd.read_csv("../input/wine-reviews/winemag-data_first150k.csv", index_
 # To write a DataFrime to csv file
 fruits.to_csv('./path/to/destination')
 
-
+# Create dataframe from dataseries
+author = ['Jitender', 'Purnima', 'Arpit', 'Jyoti']  # column values contained in a list
+article = [210, 211, 114, 178]  # column values contained in a list
+auth_series = pd.Series(author)  # converting author list to pandas data series
+article_series = pd.Series(article)  # converting article lists to pandas data series
+frame = { 'Author': auth_series, 'Article': article_series}  # creating a dictionary with string key and value pandas data series
+result = pd.DataFrame(frame)  # converting the dictionary to a dataframe
