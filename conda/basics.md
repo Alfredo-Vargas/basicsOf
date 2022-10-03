@@ -34,6 +34,11 @@ conda install jupyternotebook
 conda install -c conda-forge jupyterthemes
 ```
 
+### AWS-SDK-Python
+```console
+conda -c create aws-python -c conda-forge python boto3
+```
+
 ### Export and create/update an environment from a txt or yml file
 
 ```console
