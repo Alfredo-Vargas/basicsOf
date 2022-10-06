@@ -22,3 +22,11 @@ x_squared = np.square(x)
 ```python
 x_sum = np.sum(x)
 ```
+
+## Get the index of the max/min argument
+
+```python
+index_max = np.argmax(x)
+index_min = np.argmin(x)
+```
+
