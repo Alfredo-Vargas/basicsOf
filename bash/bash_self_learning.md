@@ -14,6 +14,36 @@
   - `${10}` is the tenth argument
   - `${11}` is the eleventh argument
 
+- `[` and `]` both are binaries UNIX systems! That is the reason that in bash scripts that symbol must be have spaces around
+
+## Name of Typing Symbols
+
+- `/` Slash or Wack
+- `\` Backslash or back wack
+- `!` Bang or Exclamation Point
+- `:` Colon
+- `;` Semicolon
+- `|` Bar or Pipe
+- `^` Carrot
+- `*` Splat, Star or Asterix
+- `-` Dash or hyphen
+- `_` Underscore
+- `~` Tilde or Squiggle
+- `=` Equals
+- `+` Plus
+- `#` Hashtag or Octothorp
+- `''` Single quotes
+- `""` Double quotes
+- \`\` Backticks
+- `@` at sign
+- `&` Ampersand
+- `[]` Square brackets
+- `{}` Curly Brackets
+- `<>` Angle Brackets
+- `()` Parenthesis
+
+
+
 ## Bash snippets
 
 - To control if the script parameters are correct:

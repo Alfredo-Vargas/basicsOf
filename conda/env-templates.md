@@ -1,11 +1,19 @@
 # Environment Templates
 
+## For LunarVim PythonIDE
+
+```console
+conda install -c conda-forge python pyright black flake8
+```
+
 ## Basic Plugins for your environments
 
 <!-- TODO: Remove python  -->
+
 ```console
 conda create -n my-plugins -c conda-forge jupyterlab theme-darcula jupyterlab_vim jupyterlab-lsp
 ```
+
 - Extra theme, not in anaconda official repository: [onedarkpro](https://github.com/johnnybarrels/jupyterlab_onedarkpro)
 
 ## Fastai
@@ -32,6 +40,7 @@ conda install -c conda-forge jupyterthemes
 ```
 
 ### AWS-SDK-Python
+
 ```console
 conda -c create aws-python -c conda-forge python boto3
 ```
