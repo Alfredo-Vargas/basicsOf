@@ -1,5 +1,29 @@
 # Common, Useful and Dangerous Commands
 
+- Shows who is logged on
+
+```bash
+who
+```
+
+- Show who is logged on and what they are doing
+
+```bash
+w
+```
+
+- Kill a user connected to a particular `pts/#`, for example:
+
+```bash
+pkill -9 -t pts/3
+```
+
+- Kill a user session by name (Be careful!!). Distinguish username using the `who` command
+
+```bash
+killall -u <username>
+```
+
 - To print the first n-lines of a file
 
 ```bash
