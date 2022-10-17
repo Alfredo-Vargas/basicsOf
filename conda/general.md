@@ -1,5 +1,11 @@
 # Miniconda Cheat Sheet
 
+### Avoid conda automatic environment
+
+```bash
+conda config --set auto_activate_base false
+```
+
 ### Environment Commands
 
 - To list environments installed:
