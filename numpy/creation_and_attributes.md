@@ -14,6 +14,7 @@ a.itemsize  # size in bytes of each element
 ## Creating arrays
 
 ```python
+np.empty((n_rows, n_cols))  # for a matrix with zeros (float points closest to zero)
 np.eye(3)  # for Identity matrix
 np.eye(3,5)  # where the diagonal is along the 3 diagonal dimension
 np.random.randint(0, high=10, size=5)  # creates a random array of 5 elements from 0 to 9 
