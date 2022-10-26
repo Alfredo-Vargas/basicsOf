@@ -26,3 +26,10 @@ sudo apt --purge autoremove
 ```bash
 sudo apt install python-is-python3
 ```
+
+- Install `tldr` binary and load its entries
+
+```bash
+sudo apt install tldr
+tldr -u
+```

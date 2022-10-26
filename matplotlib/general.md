@@ -1,3 +1,12 @@
+# Matplotlib
+
+- One can change the following options:
+![graph](./images/matplotlib-options.png)
+
+## Subplots
+
+- Example:
+```python
 import matplotlib.pyplot as plt
 
 # we create a fig contain subplots in a grid
@@ -30,3 +39,30 @@ def show3_time_series(rpt, rp, ipt, ip, pt, p) -> None:
     ax3.set_title("Sensor Pressure", fontsize=fs)
     ax3.set_ylabel("Sensor Pressure", fontsize=fs)
     plt.show()
+```
+
+## Nested Plots
+
+- Example
+
+```python
+fig = plt.figure()
+
+# Values are given in percentages
+axes1 = fig.add_axes([0.1, 0.1, 0.8, 0.8])  # main axes
+axes2 = fig.add_axes([0.2, 0.5, 0.4, 0.3])  # inset axes
+
+# main figure
+axes1.plot(x, y, 'r')
+axes1.set_xlabel('x')
+axes1.set_ylabel('y')
+axes1.set_title('insert title');
+
+# insert
+axes2.plot(y, x, 'g')
+axes2.set_xlabel('y')
+axes2.set_ylabel('x')
+axes2.set_title('insert title');
+```
+
+![nested plot](./images/inside-figure.png)
